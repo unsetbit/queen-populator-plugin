@@ -11,6 +11,7 @@ function createMockQueen(){
 	var eventEmitter = mock.emitter = new EventEmitter();
 	mock.on = sinon.spy(eventEmitter.on.bind(eventEmitter));
 	mock.removeListener = sinon.spy(eventEmitter.removeListener.bind(eventEmitter));
+	mock.captureUrl = "";
 	
 	return mock;
 }
