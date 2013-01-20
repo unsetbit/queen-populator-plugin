@@ -42,7 +42,7 @@ function createMockPopulator(){
 var Manager = theModule.Manager,
 	create = theModule.create;
 
-exports.queen = {
+exports.test = {
 	setUp: function(callback){
 		this.queen = createMockQueen();
 		this.manager = new Manager(this.queen);
