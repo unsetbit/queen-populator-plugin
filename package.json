@@ -1,6 +1,6 @@
 {
   "name": "queen-populator-plugin",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Adds populator support to queen",
   "main": "index.js",
   "dependencies": {
